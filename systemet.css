@@ -1,0 +1,75 @@
+body{
+  background-color: lightgreen;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+h1::first-letter{
+  font-size: 45px;
+}
+
+.systemet{
+  display: grid;
+  grid-template-columns: repeat(18,1fr);
+  grid-gap: 5px;
+}
+
+.usynelig{
+  opacity: 0;
+}
+
+.grunnstoff:hover{
+  transform: scale(1.4);
+}
+
+.grunnstoff{
+  border-style: solid;
+  border-radius: 8px;
+  border-color: grey;
+  text-align: center;
+  background-color: lightblue;
+}
+
+.span-16{
+  grid-column: span 16;
+  opacity: 0;
+}
+
+.span-10{
+  grid-column: span 10;
+  opacity: 0;
+}
+.systemet2{
+  display: grid;
+  grid-template-columns: repeat(18,1fr);
+  grid-gap: 5px;
+  padding-top: 50px;
+}
+
+.systemet3{
+  display: grid;
+  grid-template-columns: repeat(18,1fr);
+  grid-gap: 5px;
+  padding-top: 5px;
+}
+
+.span-2{
+  grid-column: span 2;
+  opacity: 0;
+}
+
+.systemet3 .grunnstoff{
+  background-color: purple;
+}
+
+#hei{
+  background-color: purple;
+}
+
+.systemet2 .grunnstoff{
+  background-color: pink;
+}
+
+#hade{
+  background-color: pink;
+}
